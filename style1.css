@@ -1,0 +1,126 @@
+body{
+    background-color: aquamarine;
+}
+*{
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding: 5px;
+    min-height: 100px;
+    position: relative;
+    margin: 0 auto;
+}
+.container img{
+    max-width: 100%;
+}
+.col{
+    float: left;
+    position: relative;
+    padding: 5px;
+}
+.card{
+    border: 1px solid rgb(38, 46, 46);
+     border-radius: 20px;
+     padding: 10px;
+      background-color:rgb(117, 202, 202);
+}
+.col-4{
+    width: 25%;
+}
+.hero{
+    color: #ddd;
+    font-size: 1.5em;
+    background-color:rgb(36, 85, 85);
+    text-align: center;
+    padding:30px;
+}
+.hero h1{
+    font-size: 3em;
+}
+.header{
+    height: 100px;
+}
+.section{
+    clear: both;
+    border:1px solid #ddd ;
+    padding:20px 0;
+    background-color: aquamarine;
+    height: auto;
+    overflow: hidden;
+}
+
+.logo{
+    float:left;
+    background-color: rgb(36, 35, 37);
+    width: 85px;
+    height: 85px;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 50px;
+}
+
+nav ul{
+    float:right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    float: left;
+    position: relative;
+
+}
+nav ul li a{
+    padding: 15px;
+    text-decoration: none;
+    color: #ddd;
+    font-size: 1.5em;
+}
+.mainHeader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100px;
+    background-color: rgb(18, 37, 37);
+    width: 100%;
+    z-index: 10;
+    padding: 5px;
+}
+@media all and (max-width:760px){
+    body{
+        background-color: rgb(50, 66, 66);
+    }
+    .mainHeader {
+        height: auto;
+    }
+    .logo{
+        float:none;
+        margin: 10px auto 20px;
+        display: block;
+    }
+    nav ul{
+        float: none;
+        display: block;
+        margin:0 auto;
+        text-align: center;
+    }
+    nav ul li{
+         float: initial;
+        display: inline-block;
+}
+nav ul li a{
+    padding:0 15px;
+}
+
+nav ul li:hover a{
+    background-color: white;
+    color: black;
+}
+.col-4{
+    width: 100px;
+}
