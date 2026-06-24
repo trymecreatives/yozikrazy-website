@@ -42,6 +42,44 @@ html, body{
 .col-3{
     width: 33.3%;
 }
+.col-2{
+    width: 50%;
+}
+.col-1{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.box{
+    background-color:rgb(117, 202, 202);
+    border-radius: 5px;
+    margin: 10px;
+    border: 1px solid rgb(38, 46, 46);
+    padding: 10px;
+}
+.box .content{
+    padding: 10px;
+    font-size: 1.4em;
+}
+.box .content::first-letter {
+    font-size: 2em;
+}
+.box header{
+    background-color: rgb(59, 68, 68);
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    line-height: 45px;
+    font-size: 2em;
+}
+.box footer{
+    background-color: rgb(105, 126, 126);
+    text-align: center;
+    color: white;
+    line-height: 45px;
+    font-size: 1.2em;
+}
+
 
 .hero{
     color: #ddd;
@@ -138,7 +176,7 @@ nav ul li:hover a{
 }
 
 @media all and (max-width:600px){
-    .col-3{
+    .col-3, .col-2{
     width: 100%;
     margin: auto;
     text-align: center;
