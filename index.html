@@ -10,16 +10,17 @@
         <img src="Logo 1.png" alt="Logo 1" width="80" height="80">
     </div>
     <nav><ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#Gallery">Gallery</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Services">Services</a></li>
+        <li><a href="#Contact">Contact</a></li>
     </ul>
     </nav>
 </div>
 
 </header>
-<div class="section">
+<div class="section" id="Home">
     <div class="hero">
     <h1>YOZI KRAZY</h1>
     <h2>This is music</h2>
@@ -54,7 +55,7 @@
         </div>
     </div>
 </div>
-<div class="section">
+<div class="section" id="Gallery">
     <div class="container">
         <div><h2>Gallery</h2></div>
          <div class="col col-3">
@@ -80,7 +81,7 @@
          </div>
     </div>
 </div>
-<div class="section">
+<div class="section" id="About">
     <div class="container">
         <div><h2>About</h2></div>
          <div class="col col-2">
@@ -101,7 +102,7 @@
          </div>
     </div>
 </div>
-<div class="section">
+<div class="section" id="Services">
    <div class="container">
         <div><h2>Services</h2></div>
         <div class="col col-1">
@@ -114,14 +115,44 @@
         </div>
    </div>
 </div>
-<div class="section">
-    <h1>Content 3</h1>
+<div class="section" id="Contact">
+    <div class="container">
+        <div><h2>Contact</h2></div>
+        <div class="col col-1">
+            <div class="mainForm">
+            <form action="mailto:vinniesaint89@gmail.com" method="POST" enctype="text/plain"> 
+                <label for="username">Your Name</label>
+                <input type="text" id="username" name="username" placeholder="Your Name">
+                <label for="email">Your Email</Label>
+                <input type="email" id="email" name="email" placeholder="Your email">
+                <label for="massage">Your Massage </label>
+                <textarea id="message" name="message"></textarea>
+                <input type="submit" value="Submit" class="btn">
+            </form>
+             </div>
+        </div>
+     </div>
 </div>
-<footer>
-    <h1>Footer</h1>
-
+<footer id="footer">
+<div class="container">
+    <div class="col col-4">
+        <h3>.....</h3>
+        <p>........</p>
+    </div>
+    <div class="col col-4">
+        <h3>......</h3>
+        <p>.........</p>
+    </div>
+    <div class="col col-4">
+        <h3>.........</h3>
+        <p>............</p>
+    </div>
+    <div class="col col-4">
+        <h3>.......</h3>
+        <p>...........</p>
+    </div>
+</div>
 </footer>
-
     <script src="app1.js"></script>
 </body>
 
