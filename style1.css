@@ -79,7 +79,47 @@ html, body{
     line-height: 45px;
     font-size: 1.2em;
 }
-
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px s0lid rgb(185, 231, 231);
+    border-radius: 5px;
+    margin: 10px;
+}
+.mainForm {
+    padding: 25px;
+    background-color: rgb(56, 73, 73);
+    color: white;
+    width: 50%;
+    margin: auto;
+    border: 1px solid rgb(56, 73, 73);
+    border-radius: 10px;
+}
+.btn {
+    background-color: rgb(212, 236, 236);
+    color: rgb(25, 36, 36);
+    font-size: 2em;
+    padding: 10px;
+    border border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #ddd;
+}
+label{
+    text-align: left;
+    margin: 10px 0;
+    display: block;
+}
+#message{
+    height: 150px;
+}
+#footer{
+    background-color: black;
+    color: white;
+    min-height: 200px;
+    padding: 20px;
+}
 
 .hero{
     color: #ddd;
@@ -176,9 +216,12 @@ nav ul li:hover a{
 }
 
 @media all and (max-width:600px){
-    .col-3, .col-2{
+ .col-3, .col-2{
     width: 100%;
     margin: auto;
     text-align: center;
     }
+.mainForm {
+    width: 100%; 
+}
 }
