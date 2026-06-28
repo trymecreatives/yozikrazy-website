@@ -8,6 +8,11 @@ html, body{
     margin: 0;
     padding: 0;
 }
+.sec::before{
+    content:" " ;
+    height: 50px;
+    display: block;
+}
 .container{
     padding: 5px;
     min-height: 100px;
@@ -115,10 +120,23 @@ label{
     height: 150px;
 }
 #footer{
-    background-color: black;
+    background-color:rgb(15, 22, 22);
     color: white;
     min-height: 200px;
     padding: 20px;
+    overflow: hidden;
+}
+.bottom h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+}
+.bottom p{
+    text-align: center;
+    font-size: 1em;
+
 }
 
 .hero{
