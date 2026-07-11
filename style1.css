@@ -1,6 +1,10 @@
 body{
     background-color: aquamarine;
 }
+a {
+    text-decoration: none;
+    color: inherit;
+}
 *{
     box-sizing: border-box;
 }
@@ -33,6 +37,60 @@ html, body{
     float: left;
     position: relative;
     padding: 5px;
+}
+.album-row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.producer-tabs{
+    clear: both;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 20px 10px;
+    margin-top: 0px;
+    scrollbar-width: none;
+    padding-top: 2px;
+}
+.producer-tabs::-webkit-scrollbar{
+    display: none;
+}
+.tab{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    border-radius: 30px;
+    background:rgb(43, 82, 69);
+    color: white;
+    padding: 8px 16px;
+    cursor: pointer;
+    flex-shrink:0 ;
+}
+.tab img{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.tab.active{
+    background: #4caf50;
+}
+.producer-section{
+    clear: both;
+    margin-top: 20px;
+}
+.producer-tittle{
+    color: #ffffff;
+    font-size: 18px;
+    display: inline-block;
+    background:#6aafaf;
+    padding: 8px 18px;
+    border-radius: 10px;
+    box-shadow: inset 0px 3px 8px rgba(0,0,0,0,7);   
 }
 .card{
     border: 1px solid rgb(38, 46, 46);
@@ -199,6 +257,9 @@ nav ul li a{
     z-index: 10;
     padding: 5px;
 }
+
+
+
 @media all and (max-width:760px){
     body{
         background-color: rgb(50, 66, 66);
@@ -242,4 +303,39 @@ nav ul li:hover a{
 .mainForm {
     width: 100%; 
 }
+}
+
+
+.producer-tabs{
+    display: flex;
+    overflow-x:auto;
+    white-space:nowrap;
+
+    gap: 12px;
+    margin-top:30px;
+    padding:15px;
+
+    scrollbar-width: none;
+}
+.producer-tabs::-webkit-scrollbar{
+    display: none;
+}
+.tab{
+    background: #2f2f2f;
+    color: white;
+    border: 1px solid #555;
+    border-radius: 30px;
+
+    padding: 10px 20px;
+    cursor:pointer;
+
+    flex-shrink: 0;
+}
+.tab:hover{
+    background: #4caf50;
+}
+.tab.active{
+    background: #4caf50;
+    border-color: #4caf50;
+
 }
