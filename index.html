@@ -29,8 +29,12 @@
 </div>
 <div class="section">
     <div class="container">
-        <div><h2>Albums</h2></div>
-        <div class="album row">
+        <div><h2>Albums $ SINGLES</h2></div>
+    <div class="music-tabs">
+            <button class="music-tab active" onclick="showSection('albums')"> Albums</button>
+            <button class="music-tab" onclick="showSection('singles')"> Singles</button>
+    </div>
+        <div id="albums" class="album-row">
         <div class="col col-4">
             <div class="card">
            <img src="CHINJA JOGOO.png" alt="CHINJA JOGOO">
@@ -55,7 +59,30 @@
            <p>SIMPLICITY KILLED A MAN</p>
            </div>
            </div>
+         <div class="col col-4">
+            <div class="card">
+           <img src="F NI YA FAME.png" alt="F NI YA FAME">
+           <p>F NI YA FAME EP</p>
+           </div>
+           </div>
         </div>
+
+        <div id="singles" class="album-row" style="display: none;">
+
+            <div class="col col-4">
+                <div class="card">
+                    <img src="Gangsta Love.jpg">
+                    <p>Gangsta Love</p>
+                </div>
+            </div>
+              <div class="col col-4">
+                <div class="card">
+                    <img src="Tin To Ler.png">
+                    <p>Tin To Ler</p>
+                </div>
+            </div>
+        </div>
+
 
         <div class="producer-section">
         <h3 class="producer-tittle">Producer</h3>
@@ -72,14 +99,11 @@
         </div>
     </div>
 </div>
-<div class="container">
-        <div><h2>Singles</h2></div>
-        <div class="col col-1">
-           
-        </div>
+
 </div>
 <div class="section sec" id="Gallery">
     <div class="container">
+        <div class="gallery-row">
         <div><h2>Gallery</h2></div>
          <div class="col col-3">
             <img src="Yozi Pic1.png" alt="Yozi Pic1">
@@ -101,7 +125,9 @@
          </div>
          <div class="col col-3">
             <img src="Yozi Pic7.png" alt="Yozi Pic7">
-         </div>
+        </div>
+
+        </div>
     </div>
 </div>
 <div class="section sec" id="About">
