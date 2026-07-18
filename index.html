@@ -35,31 +35,31 @@
             <button class="music-tab" onclick="showSection('singles')"> Singles</button>
     </div>
         <div id="albums" class="album-row">
-        <div class="col col-4">
+        <div class="col col-4 producer-tryme">
             <div class="card">
            <img src="CHINJA JOGOO.png" alt="CHINJA JOGOO">
-           <p> 2027.CHINJA JOGOO MIXTAPE</p>
+           <p> 2027. CHINJA JOGOO MIXTAPE</p>
            </div>
         </div>
-     <div class="col col-4">
+     <div class="col col-4 producer-tryme">
             <div class="card">
            <img src="ibaki stori mixtape.png" alt="ibaki stori mixtape">
            <p> 2026. IBAKI STORI MIXTAPE</p>
            </div>
         </div>
-         <div class="col col-4">
+         <div class="col col-4 producer-tryme">
             <div class="card">
            <img src="YoziartCover.png" alt="YoziartCover">
            <p>LOKETO ALBUM</p>
            </div>
         </div>
-         <div class="col col-4">
+         <div class="col col-4 producer-mapema">
             <div class="card">
            <img src="simplicity killed a man.png" alt="simplicity killed a man">
            <p>SIMPLICITY KILLED A MAN</p>
            </div>
            </div>
-         <div class="col col-4">
+         <div class="col col-4 producer-mapema">
             <div class="card">
            <img src="F NI YA FAME.png" alt="F NI YA FAME">
            <p>F NI YA FAME EP</p>
@@ -69,13 +69,13 @@
 
         <div id="singles" class="album-row" style="display: none;">
 
-            <div class="col col-4">
+            <div class="col col-4 producer-mapema">
                 <div class="card">
                     <img src="Gangsta Love.jpg">
                     <p>Gangsta Love</p>
                 </div>
             </div>
-              <div class="col col-4">
+              <div class="col col-4 producer-mapema">
                 <div class="card">
                     <img src="Tin To Ler.png">
                     <p>Tin To Ler</p>
@@ -88,14 +88,15 @@
         <h3 class="producer-tittle">Producer</h3>
             
         <div class="producer-tabs">
-        <button class="tab active">
+        <button class="tab active"onclick="showProducer('all', this)">All</button>
+        <button class="tab"onclick="showProducer('tryme', this)">
             <img src="TrymeCreatives.png"alt="TrymeCreatives">TrymeCreatives</button>
-        <button class="tab">
+        <button class="tab"onclick="showProducer('mapema', this)">
             <img src="Mr. Mapema.png"alt="Mr. Mapema">Mr. Mapema
         </button>
-        <button class="tab">UndefeatedBeatz</button>
-        <button class="tab">Jonga</button>
-        <button class="tab">Isa Black</button>
+        <button class="tab"onclick="showProducer('undefeatedBeatz', this)">UndefeatedBeatz</button>
+        <button class="tab"onclick="showProducer('jonga', this)"> Jonga</button>
+        <button class="tab"onclick="showProducer('isa Black', this)"> Isa Black</button>
         </div>
     </div>
 </div>
