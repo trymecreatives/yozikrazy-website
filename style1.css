@@ -125,7 +125,7 @@ html, body{
     color: white;
     padding: 8px 16px;
     cursor: pointer;
-    flex-shrink:0 ;
+    flex-shrink:0.3s ;
 }
 .tab img{
     width: 24px;
@@ -135,6 +135,7 @@ html, body{
 }
 .tab.active{
     background: #4caf50;
+    color: white;
 }
 .producer-section{
     clear: both;
