@@ -38,6 +38,10 @@ html, body{
     position: relative;
     padding: 5px;
 }
+#albums,
+#single{
+    min-height: 420px;
+}
 .album-row{
     display: flex;
     flex-wrap: nowrap;
@@ -425,3 +429,84 @@ nav ul li:hover a{
     border-color: #4caf50;
 
 }
+
+.producer-info{
+    display: none;
+    margin: 20px 0;
+    padding-left: 25px;
+    padding-top: 25px;
+    box-sizing: border-box;
+    
+}
+.producer-info h2{
+    color: #fff;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+#producerCountry{
+    color:#bbb;
+    margin
+}
+#producerRole{
+    color:#fff;
+    font-weight: bold;
+    margin: 5px 0;
+}
+#producerStats{
+    color: #1DB954;
+    font-weight: bold;
+    margin:8px 0;
+}
+
+#producerBio{
+    color: #aaa;
+    line-height: 1.7;
+    margin-top: 15px;
+}
+
+.producer-social{
+    display: flex;
+    margin-top: 25px 0;
+    justify-content: center;
+    gap: 25px;
+    margin: 25px 0;
+}
+.producer-social a{
+    color: #1DB954;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 25px;
+}
+.producer-social a:hover{
+    text-decoration: underline;
+}
+
+.producer-name{
+    font-size: 28px;
+    font-weight: bold;
+    color: #222;
+    margin: 0 0 12px 0px;
+    text-align: left;
+}
+
+#producerCountry,
+#producerRole,
+#producerStarts,
+#producerBio{
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.producer-albums{
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 25px 0;
+    padding: 0 25px;
+}
+
+
+
+
