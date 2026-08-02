@@ -57,7 +57,14 @@ function showSection(section){
 
           if (producer === "all") {
                 info.style.display = "none";
-                social.style.display = "none";
+                social.style.display = "block";
+
+                instagram.href =
+                "https://www.instagram.com/__y_ozi";
+                  facebook.href =
+                "https://web.facebook.com/vinnie.cruz.144";
+                  Youtube.href =
+                "https://www.youtube.com/@yozikrazy";
           }
 
           else if (producer === "tryme") {
@@ -224,3 +231,8 @@ function showSection(section){
                                 }
           });
     }
+
+
+    window.onload = function () {
+      showProducer("all",document.querySelector(".producer-tabs .tab"));
+    };
