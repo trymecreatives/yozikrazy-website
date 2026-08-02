@@ -154,6 +154,22 @@ html, body{
     border-radius: 10px;
     box-shadow: inset 0px 3px 8px rgba(0,0,0,0,7);   
 }
+.producer-social img{
+    width: 40px;
+    height: 40px;
+    transition: transform .2s ease;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
+.producer-social span{
+    display: inline-block;
+    line-height: 1;
+}
+.producer-social img:hover{
+    transform: scale(1.15);
+}
+
 .card{
     border: 1px solid rgb(38, 46, 46);
      border-radius: 15px;
@@ -369,7 +385,7 @@ nav ul li a{
         text-align: center;
     }
     nav ul li{
-         float: initial;
+        float:initial;
         display: inline-block;
 }
 nav ul li a{
@@ -467,19 +483,28 @@ nav ul li:hover a{
 
 .producer-social{
     display: flex;
-    margin-top: 25px 0;
-    justify-content: center;
-    gap: 25px;
-    margin: 25px 0;
+    align-items: center;
+    gap:20px;
+    flex-wrap: wrap;
+    margin: 25px 0; 
 }
-.producer-social a{
+.producer-social a {
+    display:inline-flex;
+    align-items: center;
+    gap: 8px;
     color: #1DB954;
     text-decoration: none;
-    font-weight: bold;
-    margin-right: 25px;
+    
 }
+    
 .producer-social a:hover{
-    text-decoration: underline;
+    color: #1DB954;
+}
+.follow-text{
+    color: #fff;
+    font-weight: 900;
+    font-size:22px;
+    letter-spacing: 0.5px;
 }
 
 .producer-name{
@@ -506,7 +531,3 @@ nav ul li:hover a{
     margin: 25px 0;
     padding: 0 25px;
 }
-
-
-
-
