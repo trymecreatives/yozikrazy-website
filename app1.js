@@ -124,7 +124,7 @@ function showSection(section){
                 
                 role.innerHTML = "Producer - Mixing and Mastering Engineer";
 
-                stats.innerHTML = "Produced -  Albums -  Singles";
+                stats.innerHTML = "Produced - O Albums - 10 Singles";
 
                 bio.innerHTML = 
                 "UndefeatedBeatz is known for Sound mastering and beat making.";
@@ -150,7 +150,7 @@ function showSection(section){
                 
                 role.innerHTML = "Producer - Mixing and Mastering Engineer";
 
-                stats.innerHTML = "Produced -  Albums -  Singles";
+                stats.innerHTML = "Produced - 0 Albums - 1 Singles";
 
                 bio.innerHTML = 
                 "Jonga is known for Sound recording and mastering.";
@@ -176,7 +176,7 @@ function showSection(section){
                 
                 role.innerHTML = "Producer - Mixing and Mastering Engineer";
 
-                stats.innerHTML = "Produced -  Albums -  Singles";
+                stats.innerHTML = "Produced - 0 Albums - 1 Singles";
 
                 bio.innerHTML = 
                 "Isa Black is known for Sound mastering and beat making.";
